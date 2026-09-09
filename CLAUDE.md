@@ -11,6 +11,14 @@ Process for this project: don't generate copy. Organise the user's own words int
 structure, move notes into sections, and interview the user to fill gaps. Write the
 blog post first (detailed), then derive slides from it.
 
+
+Each section should have a transferable skill which is the key takeaway. This is a survival guide,
+advice to people working in these orgs to help them survive and thrive, it should be
+giving them something actionable. It could be reframing something, re-evaluating what is actually important,
+saying no / I don't know, identifying something that slows you down / speeds you up.
+
+
+
 ## Narrative arc
 
 1. **Intro** — the overwhelm of joining a Big Org: necessary and accidental complexity,
