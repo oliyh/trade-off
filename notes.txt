@@ -1,0 +1,110 @@
+Surviving and thriving in Big Organisations
+Intro	1
+History lesson	1
+Your first day	3
+Symptoms of Big Org	3
+Strategies for change	7
+Survival toolkit	8
+
+
+Intro
+History lesson but make it waaaay shorter
+Weird things banks do = symptoms of big orgs
+Intro
+
+Joining Big Org is overwhelming. There is so much complexity - necessary and accidental. There might be multiple regulators for the industry, whose demands will manifest in many restrictions on what you can and can't do, because they make the cost of failure extremely high. As an engineer you need to learn both the business domain and the IT domain. There will likely be huge inefficiency, frustration, entrenched positions, politics and bureaucracy. What can you do to make a positive difference?
+
+History lesson
+Big Org didn’t start out big. It started out as SmallCo, small and focussed, and was successful.
+
+Successful enough that it grew, and went through growing pains like any other company when it reached critical thresholds and things like payroll couldn’t be handled by the CFO in her spare time anymore. Administrative staff levels grew, managers became necessary, a sales team was needed to keep the money coming in for the new larger company. We’re now a medium sized MiddleBiz and we’ve found new markets to expand into with multiple product lines. 
+
+
+There are regional teams, maybe even international ones, with new layers of management to try to keep track of it all. There is now no-one who can understand everything about all the company’s operations - it’s necessary to delegate and trust that people know what they are doing.
+
+Large, Inc is now well established, a significant player in its market sector and makes good returns based on momentum if nothing else. It can’t compete with the niche expertise of SmallCo or react to opportunities like MiddleBiz, but it rings up large sales due to its brand recognition and established trust, despite the bureaucracy and waste inherent in companies of this size.
+
+
+In fact, it caught the eye of Grand Fromage LLC, a competitor with ambitious growth plans in the markets that Large, Inc currently enjoys. A deal is done, and the two big companies have become Big Org.
+
+There is now a massive job to be done to align the two companies. Functions like administration need to be deduplicated. Competing products and brands need to be chosen between. Strategic investment areas need to be decided. On top of this, a tribal battle driven by people protecting their own jobs ignites. People will jump ship amongst the uncertainty, resulting in a brain drain.
+
+Your first day
+
+New joiners need a lot of training to understand the world around them and become productive. This takes time from other team members, like helping a new skater on to the ice. We don’t expect them to break even for at least 3 months, and they usually don’t start delivering a significant net contribution before about 6 months.
+Bambi on ice? Ice hockey team with one player brand new to skating?
+
+Symptoms of Big Org
+Centralised teams hidden behind ticket queues
+Incompatible aims - e.g. security team vs business delivery team
+One size fits all
+Wrong incentives
+Higher churn - because you feel ineffective and disconnected
+More extreme strategies to “make your mark”
+Uncodified institutional knowledge, “wisdom of the ancients”, “don’t touch it - we don’t know how it works”, “we’ve always done it that way”
+
+
+
+
+
+
+
+
+
+
+
+
+
+Strategies for change
+Choose hill
+Find allies
+Based on what you’ve seen work elsewhere. Big Org is not necessarily cutting edge, there will be precursors
+
+Also how can you find purpose and job satisfaction. Some people leave within 3-6 months - it's just not for them. They feel ineffective and confused.
+
+
+Survival toolkit
+Thousands of emails a day will drown you. You need to find the signal in the noise (or at least filter out as much noise as you can
+Multiple meetings a day will eat up all your time. If you cannot contribute to a meeting, and its outputs are not valuable to you, remove yourself
+Learn to search. The information you seek might be buried in a wiki page somewhere
+
+Notes
+
+Joining a big org is overwhelming. There is so much complexity - necessary and accidental. There might be multiple regulators for the industry, whose demands will manifest in many restrictions on what you can and can't do, because they make the cost of failure extremely high. As an engineer you need to learn both the business domain and the IT domain. There will likely be huge inefficiency, frustration, entrenched positions, politics and bureaucracy. What can you do to make a positive difference?
+
+IT teams used to be part of the business, grown organically out of the need to computerise and automate. The business' goals were their goals, and they shared success and failure.
+In big orgs that host multiple businesses, it was clear that the IT teams for each business were duplicating effort. The solution was to centralise all IT, breaking the alignment and transparency, making IT a cost centre rather than a revenue-enabling function. The business began to see IT as a needy child demanding money and then frittering it away on writing tests and deployment scripts before announcing that the delivery was delayed to next quarter. Then finally some businesses start employing their own developers again (so called "front office developers" / "desk devs") so they can direct their work more closely, and the cycle starts again - but now they are in competition with IT.
+
+Within IT, there was even more centralisation. Common functions like authentication, logging, source control and CI were encapsulated
+Centralised teams - measured on KPI like how fast to close a ticket, so incentivised to do minimum and close. No idea what your business needs or does, one size fits all. Developer survey misses the point - give you a slightly faster windows machine, not a Linux one that is meaningfully better. Accountability sinks - no one person is accountable for a decision, no way to give feedback. The devops culture started to bring control of some of these things back within the control of the engineer. But now we are duplicating effort!
+
+Guardrails - some are necessary, some are overly zealous, some are because of a misunderstanding, some are because they just don't trust you to do the right thing. All of them make life difficult.
+
+Network - many people will have faced the same problem, and we all duplicate work for a solution. There will be bubbles of good, effective people, who set the benchmarks, establish the processes. Find them, adopt their ways, use their tools. If you are them, use the performance as justification.
+
+Choose hills to die on, you can't do it all
+Small hill: make it easy to write, commit and deploy a line of code. Sound small but isn't necessarily!
+Big hill: paradigm like Openshift, programme like spuds/snow
+
+Allies: you need to convince. Carefully hone ideas and test them somehow. Make clear diagrams. Share/test with small group first and expand out. You need multiple voices saying the same thing, but they need to be 'independent' otherwise it seems like a cult
+
+In a big org, change is risky. Change is feared. It can feel hostile to change. Build alongside and switch over once you have demonstrated it works - but this is expensive. Change the wings while flying is arguably more expensive. What to do? Sometimes you have to do something and ask for forgiveness later - which is more easily granted if you can then show them something working that has value. You need to continue delivering features to keep them happy whilst secretly carving off time to pilot some fundamental change. Other times you can be more upfront and declare it; it's a question of trust, the wider business context, and the balance between investment and payoff.
+Spend time to really work out a path through this. Can you carve out on feature and go live? It's then easier to eat your way back up the chain.
+
+One strange counterexample is AI adoption. Suspect that was mandated from the top, fear of being left behind. It happened relatively quickly - proving that it is possible when there's enough motivation.
+
+Personal qualities needed
+Ability to deal with crazy bureaucracy and lack of freedom. Find pleasure in solving hard problems, even if they are problems of the org's making
+You don't have to fix everything and stay there 30 years to do it, you can do your best and leave a better place than when you joined
+Change has to be sustainable. Automate everything you can, a) so it doesn't suck up your time maintaining it, b) so that anyone else with less knowledge than you can take it over, c) so that the institutional knowledge of something is codified as written software rather than existing somehow as the union of several people's brains. If you work on something for 4 weeks you are now probably the global expert of that thing, because either no one else worked on it before or else they have long forgotten (or left).
+Don't be afraid to ask stupid questions: what does that acronym mean? Why do we have to do X before Y? What does Z do with that information? Is that really on the critical path? Is this feature actually going to be used by anyone? Sometimes you can define your project more by what it doesn't do than by what it does! But if you ask lots of questions, make sure you only ask them once. Take time to integrate the answers into your mental model. Demonstrate what you do know when asking follow up questions ‘We do X first because of this, but if Z doesn't need it until tomorrow then…’
+
+Weird things banks do
+Spreadsheets for everything - because they need to join outputs from two systems together, or multiply this number by that number - comic of someone using excel to bang in a nail or something
+Loads of knowledge just in people's heads
+Pretty much everything written down is out of date
+Go into meetings with just words, leave with just words
+Never switch stuff off - ancient artifact comic
+Lots of manual processes, especially between systems
+Budgets that work in stupid ways like use it or lose it, inability to hire permies
+
