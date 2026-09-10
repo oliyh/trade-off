@@ -1,0 +1,108 @@
+# Surviving and Thriving in Big Organisations
+
+Joining a Big Org is overwhelming. There is so much complexity in front of you - some of it necessary, some of it entirely accidental. There will likely be multiple regulators for your industry, and their demands show up as restrictions on what you can and can't do, because the cost of failure is extremely high for them. As an engineer you have to learn the business domain and the IT domain at the same time. Expect weirdness, inefficiency, frustration, politics and bureaucracy.
+
+None of that is going away because you turned up. So the real question is: what can you actually do about it?
+
+This is a survival guide. Not a manifesto for fixing Big Org - nobody fixes Big Org - but a set of things you can reframe, things you can stop worrying about and things you can actually change, so your time there is productive, tolerable and possibly even enjoyable.
+
+## A brief history of Big Org
+
+**Key quote:** None of this is personal - it's the predictable result of scale
+
+Every business starts small and focused, and the ones you end up working for were successful enough to grow. But Big Org didn't get big by growing organically. It got big through mergers and acquisitions - buying up competitors, adjacent businesses, whole product lines - and every merger brings confusion, complexity and a dilution of purpose. Once it gets big enough a second cycle emerges: centralisation of functions to save on overhead, followed by decentralisation when the centralised functions can't keep everyone happy. Each cycle leaves a trail of carnage and a not-quite-dead centralised function behind.
+
+None of the weirdness that follows is arbitrary - it's no one's fault. The people you will work with are intelligent and usually want the same things you do. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude.
+
+*[COMIC: two small, tidy companies merging into one much bigger, visibly confused mess of departments and org charts]*
+
+Some things you'll see on the way to acquiring your thousand-yard stare:
+
+- Centralised teams hidden behind ticket queues aka the black hole of service requests
+- Conflicting requirements, sometimes for good reasons like regulation, sometimes because changing software is easier (not simpler) than changing the business
+- One size fits all, whether it's your size or not
+- Incentives for the wrong behaviour - like a KPI for how fast you close a ticket without measuring if it was closed satisfactorily
+- Higher churn, because it's impossible to know everything up front
+- Uncodified institutional knowledge - "wisdom of the ancients", "don't touch it, we don't know how it works", "we've always done it that way"
+- Spreadsheets for everything
+- Documentation that's out of date the moment it's written
+- Systems that will run until the heat death of the universe because we don't know what they do and we're scared to switch them off
+- Budgets that won't let you hire people but will let you spend incredible amounts on IBM or Oracle
+
+*[COMIC: someone using a spreadsheet to hammer in a nail]*
+
+
+## Your first day
+
+**Key quote:** build your mental model
+
+Prepare to fill in some request forms. Lots of them. I tell people that the request form application is their new best friend.
+
+You will be bombarded with information. New people, complicated systems with strange names, processes nobody wrote down properly, links you don't have access to yet, everyone is busy. Absorbing as much as you can, as fast as you can, is your first job. Everyone's brain works differently, but mine likes diagrams - lots of them, sometimes covering the same ground from different perspectives: who belongs to which team, what a given system is for, the journey of a single quote through the systems, the desks that touch it, where a piece of data actually lives, what a trader uses versus what a salesperson uses.
+
+Each diagram builds a different facet of your mental model, and each one is something you can discuss with someone else. Show a colleague your diagram and ask "so where does the thing you just told me fit on this?" - it shows them exactly what you understand, so they can tell you precisely instead of re-explaining from scratch, and correct any wrong assumptions you made. Sometimes the diagram is wrong - tear it up and redraw it, it's your tool for understanding.
+
+You will forget things, and you shouldn't be afraid to say you don't understand - tell people you're new up front and they will be patient with you. The one thing worth avoiding is asking the exact same question twice, because it looks like you haven't listened. Writing things down and drawing them makes that avoidable, and if you do need to revisit something, show you have been listening: "you told me X does Y because Z, but Z only seems to apply in a minority of cases - so why does X do Y the rest of the time?"
+
+You get a honeymoon period - nobody expects you to break even before about three months, and you might not make a significant net contribution before six. That doesn't mean you have nothing to offer - on the contrary, your fresh perspective and ideas are something that you have which no one else does. Asking dumb questions can sometimes lead the person answering to realise that things can be simplified or avoided.
+
+Your mental model is never complete; your responsbilities will grow, the world does not stand still. You should continually work on keeping your mental model up-to-date.
+
+*[COMIC: someone tearing up a whiteboard diagram and starting again, a pair of ice skates hanging on the wall nearby]*
+
+
+## Strategies for change
+
+We're usually engaged to bring expertise, both technical and domain, to a client's problem along with a team of skilled engineers who can help deliver a solution.
+
+Our extra value as a consultancy is to look around while we're doing that and see how else we can help. It might be pain that we have during implementation, or pain we see within the wider team which impacts delivery. You can't fix everything, so choose your hills wisely. Consider how long something takes to do versus how frequently it's performed - shaving a few seconds off a small task, like the test-implement-refactor cycle that you do hundreds of times a day is equally as valuable as saving a few hours off a deployment that you do once a week, or a report that you deliver once a month. Time saved on a task can add up quickly over days and weeks, scaled across teams. If you have a team of 6, and you can optimise their developer experience to save 3 minutes per hour, it gives you an extra 2 developer days per week. Wouldn't that be useful?
+
+https://xkcd.com/1319/
+
+The big hills are very different. I once spent a year helping a team off a home-grown legacy stack - old Python, a mega-monorepo that was chronically broken, an unfathomable version control system, a gnomic runtime scheduler - despite modern tooling already in use elsewhere in the organisation. There was so much inertia: sunk costs, urgent business deliveries, the local maximum paradox. A new tech stack wasn't going to help with the business aims, was it? Actually yes, it will - but you have to communicate the bigger picture, and frame it in a way the business can understand. They don't care if you use git or containers, but they do  care about more frequent releases, lower lead time for features, fewer bugs released. We communicated success with a monthly newsletter of business success stories: "Feature X requested on Wednesday, in production on Friday". The client didn't ask for this directly, but the need for it was obvious - they were struggling to release working software, with a spiralling release cadence, ever more bugs, and months to deliver features. The holistic approach we championed was a service-oriented architecture, with services encapsulating behaviour behind stable interfaces. This made testing much more automatable and reliable, allowed services to move at different speeds and gave us smaller releasable units. This allowed us to increase release cadence, which allowed us to deliver features faster.
+
+The benefits of faster release cycles compounds as well: slow release cycles push users to ask for features to be built maximally flexible up front, because they don't want to wait months for the next fix - which makes each feature bigger, slower and buggier, lengthening the cycle further still. Fast cycles break that spiral: ship something simple, adjust it days later if it needs it.
+
+Visible delivery matters as much as fast delivery. I once worked on a project building a pricing platform for structured products, taking over from another consultancy that had used six months of the one year timeline not delivering much. My team of three delivered a basic demo within two weeks, had something akin to an MVP within six, and met the original production release date despite half the time lost before we even started. The business had lost confidence in tech delivery; small, visibly iterating increments helped build trust in our new team.
+
+Find allies. There might be people elsewhere in the organisation who've already solved your problem. I found this out getting developers onto Linux, after Windows machines were strangled by endpoint security tools hammering the exact things developers hammer hardest (worst case I saw, `git status` took three seconds against three milliseconds on a normal machine). Such machines already existed inside the organisation, just not advertised. I found the people leading that work, contributed to it, piloted it on my own team, and only then shared it more widely.
+
+Sometimes allies aren't enough and you have to move first and explain later - usually the pattern for technical debt, where asking permission outright tends to get "yes, but later", a later that never comes. What works instead is folding it into planning as reduced delivery capacity - "here's our capacity this sprint", with some already set aside - which gives the business something concrete, honestly. Incidental debt needs a dedicated block of time; debt from feature work can be paid down incrementally, budgeting around ten per cent of feature time to prefactor - restructure before writing the new code, so it lands cleanly.
+
+One genuinely strange counterexample is artificial intelligence (AI) adoption. New technology in Big Org normally moves bottom-up against resistance - developers use something outside work, see the advantage, then fight the policy to bring it in, and the default answer is always no. AI inverted that: enforced from the top, "you have to use this", whether people wanted it or not. None of these organisations has a clear read on how much value they're getting from it, but they know exactly what it's costing - a mix, probably, of fear of being left behind and everyday exposure to AI, where the results of vibecoding a simple app get taken on faith as extending cleanly to the complex systems inside a Big Org. A bit like a peasant from the Middle Ages handed an iPhone, dazzled by the interface, not seeing the infrastructure underneath it.
+
+*[COMIC: a medieval peasant marvelling at a glowing smartphone, oblivious to the vast tangle of pipes, cables and servers underneath it]*
+
+What it proves, though, is that fast, organisation-wide change is possible when the motivation is strong enough. It just almost never points at the things engineers actually want changed.
+
+**Takeaway:** pick fights you can actually win, make the case in the business's own language, and if you can't get permission, get honest instead.
+
+## The survival toolkit
+
+Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems: emailing a human for signoff; every ticket in Jira (the issue tracker) in the right state, plus three extra tickets worded precisely enough to survive a human review team; recording which budget the release came under; booking the release team; and a wiki page with release and rollback notes.
+
+My first attempt took four days. Some people's entire job was farming release paperwork, and no single person knew the whole process - so when the two who did left the bank, the job landed on developers by default. I was trying to get to weekly releases against everyone else's four-week cycle, so I automated it: driving Jiras through their application programming interface (API), email templates for the steps needing a human, wiki pages through an API, and portal forms the tool filled in itself. Best case, the whole process came down to about twenty minutes. Weekly releases held.
+
+*[COMIC: five bureaucratic forms and systems all needing to be filled in at once by one exhausted developer]*
+
+It got pushback, especially from teams who found out their API had been reverse-engineered. What worked was being respectful and offering to be a pilot user - it reframes the whole thing as helping them, and gets you what you actually want sooner.
+
+That's the bigger principle: automate for sustainability, not just to save your own time. It stops the thing needing you specifically to maintain it, lets someone with less context take it over, and turns institutional knowledge that only exists in people's heads into something codified in software. Work on something for four weeks and you're probably the global expert in it, because everyone who knew it before has left or forgotten.
+
+The rest of the toolkit is smaller but adds up. Invest real time in email filters to find the signal in the noise. If a meeting doesn't need your input and its output doesn't affect you, remove yourself. Learn to search properly - the answer you need is often buried on a wiki page somewhere. When you ask a question, ask it once: integrate the answer rather than asking again next month.
+
+A handful of habits help too. Put yourself in the other person's shoes. Prepare for meetings - know the one point you want to land; I like screen-sharing my diagrams for this reason. Seek first to understand, then to be understood. Failures will happen; what matters is that you did what you reasonably could to avoid, mitigate and prevent them recurring. Don't try to clear the whole to-do list yourself - a Big Org's is infinite, and trying will burn you out, so focus on the highest-impact things. A small, unplanned favour for someone can build goodwill worth far more later.
+
+You don't have to fix everything, or stay thirty years to make a difference. Do what you can, and leave things better than you found them - a test, a pipeline, a deployment, a UI, a page of documentation, whatever you touch. Do that consistently and you become known as the person who makes things better, not the one who leaves a trail of destruction behind them.
+
+One piece of practical advice which seems to be an axiom: everything ends up in a spreadsheet eventually, no matter what you build. Don't fight it - if your application doesn't ship with an import and export for it, you are guaranteed to eventually create a job for someone, quite possibly future you, copying data cell by cell into or out of one by hand.
+
+Meetings - a daily thirty-minute status call everyone sits through also costs a developer-week, so send one person to summarise it back, or ask for notes instead of attendance.
+
+**Takeaway:** automate the boring, bureaucratic and repetitive - not for your own convenience, but so the knowledge survives you leaving.
+
+## Leave it better than you found it
+
+None of this fixes Big Org. Nothing will, and that's fine - it isn't your job to fix it single-handedly, and you shouldn't try. What you can do is choose your hills carefully, build your own mental model and share it generously, automate the things that grind people down, and leave everything you touch a little better than you found it.
+
+Do that consistently enough, and you won't just survive Big Org - you'll actually be glad you were there.

@@ -24,9 +24,14 @@ saying no / I don't know, identifying something that slows you down / speeds you
 1. **Intro** — the overwhelm of joining a Big Org: necessary and accidental complexity,
    regulators, learning business + IT domains simultaneously, bureaucracy and politics.
    Framed as: what can you actually do about it?
-2. **History lesson (short)** — SmallCo → MiddleBiz → Large Inc → merger → Big Org.
-   Purpose: symptoms of Big Org are consequences of this growth path, not arbitrary
-   dysfunction. Sets up section 4.
+2. **History lesson (very short)** — cut down from the original SmallCo → MiddleBiz →
+   Large Inc → Grand Fromage narrative (notes.txt lines 18–30) to two beats only:
+   (a) every business starts small and focused; (b) mega-corps are always the result
+   of mergers and acquisitions, which bring confusion, complexity, and dilution of
+   purpose — layered with the centralisation/decentralisation cycle, which leaves
+   more carnage in its wake. No extended story — a single xkcd-style image can carry
+   this beat instead of prose. Purpose: symptoms of Big Org are consequences of this
+   growth path, not arbitrary dysfunction. Sets up section 4.
 3. **Your first day** — onboarding overwhelm, ramp time, the human cost of complexity
    (skating metaphor).
 4. **Symptoms of Big Org** — the diagnosis. Two merged lists: abstract symptoms
