@@ -63,7 +63,9 @@ We're usually engaged to bring expertise, both technical and domain, to a client
 
 Our extra value as a consultancy is to look around while we're doing that and see how else we can help. It might be pain that we have during implementation, or pain we see within the wider team which impacts delivery. You can't fix everything, so choose your hills wisely. Consider how long something takes to do versus how frequently it's performed - shaving a few seconds off a small-but-frequent task is as valuable as saving an hour off a big task that you do once a week, or a day from something you do once a month. Time saved on a task can add up quickly over days and weeks, scaled across teams. If you have a team of 6, and you can save each one 3 minutes per hour, it gives you an extra 2 developer days per week. Wouldn't that be useful?
 
-https://xkcd.com/1319/ + credit
+![xkcd 1319: 'Automating' comes from the roots 'auto-' meaning 'self-', and 'mating', meaning 'screwing'.](img/xkcd-1319-automation.png)
+
+*"Automation" by [xkcd](https://xkcd.com/1319/), used under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)*
 
 ### In the small
 
@@ -82,7 +84,9 @@ The benefits of faster release cycles compound as well: slow release cycles push
 Visible delivery matters as much as fast delivery. I once worked on a project building a pricing platform for structured products, taking over from another consultancy that had used six months of the one-year timeline not delivering much. My team of three delivered a basic demo within two weeks, had something akin to an MVP within six, and met the original production release date despite half the time lost before we even started. The business had lost confidence in tech delivery; small, visible increments helped build trust in our new team.
 
 I once worked with someone who would share this image at every opportunity. I still find it useful today, along with the mantra "Make it work, make it right, make it fast". They are both useful reminders for everyone that every long journey starts with the first step.
-[img of agile delivery] - credit to https://blog.crisp.se/author/henrikkniberg
+![Not like this: a wheel, then two wheels, then a chassis, then a half-built car. Like this: a skateboard, then a scooter, then a bike, then a motorbike, then a car - each stage a usable product](img/agile-delivery.jpg)
+
+*Illustration by [Henrik Kniberg](https://blog.crisp.se/author/henrikkniberg)*
 
 ### Sustainability
 
