@@ -107,7 +107,10 @@ None of these things are easy or quick. They take time and dedication, so pick y
 
 ## AI
 
-AI deserves its own section because it's undoubtedly the biggest change the software industry has ever seen. It's strange, because new technology in Big Org normally moves bottom-up against resistance - developers use something outside work, see the advantage, then have to fight the policy to bring it in where the default answer is always no. AI inverted that: enforced from the top, "you have to use this", whether people wanted it or not. None of these organisations are clear on how much value they're getting from it, but I bet they know exactly what it's costing. I suspect it's a mix of fear of being left behind by their competitors and everyday exposure to AI, where the results of vibecoding a simple app get taken on faith as extending cleanly to the complex systems inside a Big Org. In these systems "typing was never the bottleneck". Although I personally find AI to multiply my output quite effectively, I struggle with detachment from the code. My solution is to double down on my mental model - it has always been how I think of the tens of thousands of lines of code that I wrote, and extends to the hundreds of thousands that AIs will write for me.
+AI deserves its own section because it's undoubtedly the biggest change the software industry has ever seen. It's strange, because new technology in Big Org normally moves bottom-up against resistance - developers use something outside work, see the advantage, then have to fight the policy to bring it in where the default answer is always no. AI is the opposite: enforced from the top whether people wanted it or not. I suspect it's a mix of fear of being left behind by their competitors and everyday exposure to AI, where the results of vibecoding a simple app get taken on faith as extending cleanly to the complex systems inside a Big Org. In these systems, as a colleague told me, "typing was never the bottleneck". 
+None of these organisations are clear on how much value they're getting from it, but I bet they know exactly how much it costs. When this eventually self-corrects I think we'll see another shift. Use this time wisely to learn the tools and experiment.
+
+Although I personally find AI to multiply my output quite effectively, I struggle with detachment from the code. My solution is to double down on my mental model - it has always been how I think of the tens of thousands of lines of code that I wrote, and extends to the hundreds of thousands that AIs will write for me.
 
 ## The survival toolkit
 
@@ -115,20 +118,20 @@ AI deserves its own section because it's undoubtedly the biggest change the soft
 
 **Meetings** abound. If a meeting doesn't need your input and its output doesn't affect you, politely remove yourself. If a meeting invites your whole team but only requires a representative, send one person who reports back.
 
-**Prepare** for meetings, too. In the land of opinions, the one with hard facts (and diagrams) is king.
+**Prepare** for meetings, too. In the land of opinions, the person with hard facts (and diagrams) is king.
 
 **Empathy** with the people you interact with. What motivates them? What frustrates them? This will help you understand what they want from you.
 
-**Seek first to understand, then to be understood** because no one knows everything.
+**Seek first to understand, then to be understood** because no one knows everything, including you.
 
-**Failures will happen** but what really matters is that you do what you reasonably could to avoid, mitigate and prevent them recurring.
+**Failures will happen** but what really matters is that you do what you can to avoid, mitigate and prevent them recurring.
 
-**Don't boil the ocean** because Big Org's to-do list is infinite and trying will burn you out, so focus on the highest-impact things you can achieve.
+**Don't boil the ocean** because Big Org's to-do list is infinite and trying will burn you out. Focus on the highest-impact things you can achieve.
 
 **Automate** what you can, not just for your own convenience, but so the knowledge becomes codified and the process becomes scalable.
 
 ## Leave it better than you found it
 
-None of this fixes Big Org. Nothing will, and that's fine - it isn't your job to fix it single-handedly, you shouldn't try. What you can do is build your own mental model and share it generously, automate the things that grind people down, choose one or two things to make a really positive change to, and leave everything you touch a little better than you found it.
+None of this fixes Big Org. Nothing will, and that's fine - it isn't your job to fix it single-handedly and you shouldn't try. What you can do is build your own mental model and share it generously, automate the things that grind people down, choose one or two things to make a really positive change to, and leave everything you touch a little better than you found it.
 
 Do that consistently enough, and you won't just survive Big Org - you'll actually be glad you were there.
