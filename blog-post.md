@@ -14,7 +14,7 @@ Every business starts small and focused, and the ones you end up working for wer
 
 None of the weirdness that follows is arbitrary - it's no one's fault. The people you will work with are intelligent and usually want the same things you do. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude. Some things you'll see on the way to acquiring your thousand-yard stare:
 
-*[COMIC: two small, tidy companies merging into one much bigger, visibly confused mess of departments and org charts]*
+![Big Organisation: departments ignoring each other, budget tug-of-war, revolving-door CEO, and one small pocket of actual productivity](img/1789074555493.png)
 
 - Politics, bureaucracy, inefficiency
 - Byzantine processes
@@ -28,6 +28,8 @@ None of the weirdness that follows is arbitrary - it's no one's fault. The peopl
 - Documentation that's out of date the moment it's written
 - Systems that will run until the heat death of the universe because we don't know what they do and we're scared to switch them off
 - Budgets that won't let you hire people but will let you spend incredible amounts on IBM or Oracle
+
+![The accounts autoclave: nobody knows what it does, everyone's scared to turn it off, so it just gets a new rod of uranium every year](img/1789074776768.png)
 
 If these things are going to drive you insane, Big Org might not be for you. This is worth considering seriously, because I have seen it happen multiple times: someone joins Big Org, gets frustrated and leaves six months later, which is disruptive to them and the team they joined. Keep reading for some advice and tools which may help you face the challenge.
 
