@@ -1,6 +1,6 @@
 # Surviving and Thriving in Big Organisations
 
-Joining a Big Org is overwhelming. There is so much complexity in front of you - some of it necessary, some of it entirely accidental. There will likely be multiple regulators for your industry, and their demands show up as restrictions on what you can and can't do, because the cost of failure is extremely high for them. As an engineer you have to learn the business domain and the IT domain at the same time. Expect weirdness, inefficiency, frustration, politics and bureaucracy.
+Joining Big Org is overwhelming. There is so much complexity in front of you - some of it necessary, some of it entirely accidental. There will likely be multiple regulators for your industry placing restrictions on what you can and can't do, with the cost of failure extremely high. As an engineer you have to learn the business domain and the IT domain at the same time. Expect weirdness, inefficiency, frustration, politics and bureaucracy.
 
 None of that is going away because you turned up. So the real question is: what can you actually do about it?
 
@@ -8,22 +8,22 @@ This is a survival guide. Not a manifesto for fixing Big Org - nobody fixes Big 
 
 ## A brief history of Big Org
 
-**Key quote:** None of this is personal - it's the predictable result of scale
+> None of this is personal - it's the predictable result of scale
 
-Every business starts small and focused, and the ones you end up working for were successful enough to survive and grow. But Big Org didn't get big by growing organically. It got big through mergers and acquisitions - buying up competitors, adjacent businesses, whole product lines - and every merger brings confusion, complexity and a dilution of purpose. Once it gets big enough a second cycle emerges: centralisation of functions to save on overhead, followed by decentralisation when the centralised functions can't keep everyone happy. Each cycle leaves a trail of carnage and a not-quite-dead centralised function behind.
-
-None of the weirdness that follows is arbitrary - it's no one's fault. The people you will work with are intelligent and usually want the same things you do. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude. Some things you'll see on the way to acquiring your thousand-yard stare:
+Every business starts small and focused, and the successful ones survive and grow. Big Org didn't get big just by growing organically but through many mergers and acquisitions of competitors, adjacent businesses, whole product lines with each one bringing confusion, complexity and a dilution of purpose. Once it gets big enough a second cycle emerges: centralisation of functions to save on overhead, followed by decentralisation when the centralised functions can't keep everyone happy. Each cycle leaves a trail of carnage and a not-quite-dead centralised function behind.
 
 ![Big Organisation: departments ignoring each other, budget tug-of-war, revolving-door CEO, and one small pocket of actual productivity](img/1789074555493.png)
 
+Weirdness follows. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude. Some things you'll see on the way to acquiring your thousand-yard stare:
+
 - Politics, bureaucracy, inefficiency
 - Byzantine processes
-- Centralised teams hidden behind ticket queues aka the black hole of service requests
+- Centralised teams hidden behind opaque ticket queues
 - Conflicting requirements, sometimes for good reasons like regulation, sometimes because changing software is easier (not simpler) than changing the business
-- One size fits all, whether it's your size or not
-- Incentives for the wrong behaviour - like KPIs for how fast you close a ticket without measuring if it was closed satisfactorily
 - Missing requirements and higher churn, because it's impossible to know everything up front
-- Uncodified institutional knowledge - "wisdom of the ancients", "we've always done it that way"
+- One size fits all, whether it's your size or not
+- Incentives for the wrong behaviour, like rewarding how fast you close a ticket without measuring if it was closed satisfactorily
+- Uncodified institutional knowledge - wisdom of the ancients: "we've always done it that way"
 - Spreadsheets for everything
 - Documentation that's out of date the moment it's written
 - Systems that will run until the heat death of the universe because we don't know what they do and we're scared to switch them off
@@ -38,74 +38,77 @@ If these things are going to drive you insane, Big Org might not be for you. Thi
 
 ## Your first day
 
-**Key quote:** build your mental model
+> Build your mental model
 
 Prepare to fill in some request forms. Lots of them. I tell people that the request form application is their new best friend.
 
-You will be bombarded with information. New people, complicated systems with strange names, processes nobody wrote down properly, links you don't have access to yet, everyone is busy. Absorbing as much as you can, as fast as you can, is your first job. Everyone's brain works differently, but mine likes diagrams - lots of them, sometimes covering the same ground from different perspectives: who belongs to which team, what a given system is for, the journey of a single quote through the systems, the desks that touch it, where a piece of data actually lives, what a trader uses versus what a salesperson uses.
+You will be bombarded with information. New people, acronyms, systems with strange names, poorly documented processes, long email chains. Absorbing as much as you can, as fast as you can, is your first job. Everyone's brain works differently, but I draw diagrams - lots of them, sometimes covering the same ground from different perspectives: who belongs to which team, what a given system is for, the journey of a single quote through the systems, the desks that touch it, where a piece of data actually lives, what a trader uses versus what a salesperson uses.
 
-Each diagram builds a different facet of your mental model, and each one is something you can discuss with someone else. Show a colleague your diagram and ask "so where does the thing you just told me fit on this?" - it shows them exactly what you understand, so they can tell you precisely instead of re-explaining from scratch, and correct any wrong assumptions you made. Sometimes the diagram is wrong - tear it up and redraw it, it's your tool for understanding.
+Each diagram builds a different facet of your mental model, and each one is something you can discuss with someone else. Show a colleague your diagram and ask "so where does the thing you just told me fit on this?" - it shows them exactly what you understand, so they can tell you precisely instead of re-explaining from scratch, and correct any wrong assumptions you made.
 
-You will forget things, and you shouldn't be afraid to say you don't understand - tell people you're new up front and they will be patient with you. The one thing worth avoiding is asking the exact same question twice, because it looks like you haven't listened. Writing things down and drawing them makes that avoidable, and if you do need to revisit something, show you have been listening: "you told me X does Y because Z, but Z only seems to apply in a minority of cases - so why does X do Y the rest of the time?"
+You will forget things, and you shouldn't be afraid to say you don't understand - tell people you're new up front and they will be patient with you. The one thing worth avoiding is asking the exact same question twice, because it looks like you haven't listened. Writing things down and drawing them makes that avoidable, and if you do need to revisit something, show you have been listening: "you told me we always do X, but it only seems to apply in a minority of cases - so why do X the rest of the time?"
 
-You get a honeymoon period - nobody expects you to break even before about three months, and you might not make a significant net contribution before six. That doesn't mean you have nothing to offer - on the contrary, your fresh perspective and ideas are something that you have which no one else does. Asking dumb questions can sometimes lead the person answering to realise that things can be simplified or avoided.
+You get a honeymoon period - nobody expects your contributions to break even before about three months, and you might not make a significant net contribution before six. That doesn't mean you have nothing to offer - on the contrary, your fresh perspective, ideas and questions are something that you have which no one else does, and are powerful diagnostic tools.
 
-Your mental model is never complete; your responsibilities will grow, and the world does not stand still. You should continually work on keeping your mental model up-to-date.
+Your mental model is never complete; your responsibilities will grow, and the world does not stand still. You should continually work on refining and updating your mental model.
 
 *[COMIC: someone tearing up a whiteboard diagram and starting again, a pair of ice skates hanging on the wall nearby]*
 
 
 ## How to make a difference
 
-**Key quote:** pick fights you can actually win, make the case in the business's own language
+> Choose carefully and convince the business in their own language
 
 We're usually engaged to bring expertise, both technical and domain, to a client's problem along with a team of skilled engineers who can help deliver a solution.
 
-Our extra value as a consultancy is to look around while we're doing that and see how else we can help. It might be pain that we have during implementation, or pain we see within the wider team which impacts delivery. You can't fix everything, so choose your hills wisely. Consider how long something takes to do versus how frequently it's performed - shaving a few seconds off a small-but-frequent task is as valuable as saving an hour off a big task that you do once a week, or a day from something you do once a month. Time saved on a task can add up quickly over days and weeks, scaled across teams. If you have a team of 6, and you can save each one 3 minutes per hour, it gives you an extra 2 developer days per week. Wouldn't that be useful?
+Our extra value as a consultancy is to look around while we're doing that and see how else we can help. It might be pain that we have during implementation, or opportunities we see to improve delivery. You can't fix everything, so choose your challenge wisely. Consider how long something takes to do versus how frequently it's performed - shaving a few seconds off a small-but-frequent task is as valuable as saving a day from something you do once a month. Time saved can add up quickly over days and weeks, multiplied across teams. If you have a team of 6, saving each person 3 minutes per hour gives you an extra 2 person days per week. Wouldn't that be useful?
 
 ![xkcd 1319: 'Automating' comes from the roots 'auto-' meaning 'self-', and 'mating', meaning 'screwing'.](img/xkcd-1319-automation.png)
 
 *"Automation" by [xkcd](https://xkcd.com/1319/), used under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)*
 
-### In the small
+### Small differences
 
 For a developer the small-but-frequent tasks are things like the code-test-refactor loop that we do hundreds of times a day. Optimisations include improving your typing speed and accuracy, the responsiveness and performance of the hardware, the IDE and tooling you use. Sadly, even these basic things cannot be taken for granted because you are often given a general-purpose Windows machine, laden with endpoint security, to use for development alongside email, chat apps and (inevitably) Excel. I've found that within these environments a Linux machine will give you vastly better performance, more native tooling and the possibility of faster hardware (if it's a VM in the cloud). Finding and getting hold of one may not be easy, but worth fighting for.
 
 Excel wasn't a joke, by the way. One piece of practical advice which seems to be an axiom: everything ends up in a spreadsheet eventually, no matter what you build or how good your UI is. Don't fight it - if your application doesn't ship with a spreadsheet import and export, you are guaranteed to eventually create a job for someone, quite possibly future you, copying data cell by cell.
 
-### In the large
+### Big differences
 
-The big tasks can be very different. I spent a year working to provide an alternative to a home-grown legacy stack - old Python, a mega-monorepo that was chronically broken, an unfathomable version control system, a gnomic runtime scheduler - despite modern tooling already in use elsewhere in the organisation. There was so much inertia: sunk costs, urgent business deliveries, the local maximum paradox. A new tech stack isn't going to help with the business aims, will it? Actually yes, it will - but you have to communicate the bigger picture, and frame it in a way the business can understand. They don't care if you use git or containers, but they do care about more frequent releases, lower lead time for features, fewer bugs released. We communicated success with a monthly newsletter of business success stories: "Feature X requested on Wednesday, in production on Friday". The client didn't ask for this directly, but the need for it was obvious - they were struggling to release working software, with a spiralling release cadence, ever more bugs, and months to deliver features. The holistic approach we championed was a service-oriented architecture, with services encapsulating behaviour behind stable interfaces. This made testing much more automatable and reliable, allowed services to move at different speeds and gave us smaller releasable units. This allowed us to increase release cadence, which allowed us to deliver features faster.
+I spent a year building an alternative to a home-grown legacy ecosystem - old Python, a mega-monorepo that was chronically broken, an unfathomable version control system, a gnomic runtime scheduler - despite modern tooling already in use elsewhere in the organisation. There was so much inertia: sunk costs, urgent business deliveries, the local maximum paradox. A new tech stack isn't going to help with the business aims, will it? Actually yes, it will - but you have to communicate the bigger picture, and frame it in a way the business can understand. They don't care if you use git or containers, but they do care about more frequent releases, lower lead time for features, fewer bugs released. We sent out a monthly newsletter of business success stories: "Feature X requested on Wednesday, in production on Friday". The client didn't ask for this directly, but the need for it was obvious - they were struggling to release working software, with a spiralling release cadence, ever more bugs, and months to deliver features.
 
-The benefits of faster release cycles compound as well: slow release cycles push users to ask for features to be built maximally flexible up front, because they don't want to wait months for the next fix - which makes each feature bigger, slower and buggier, lengthening the cycle further still. Fast cycles break that spiral: ship something simple, adjust it days later if it needs it. Furthermore, you get benefits with hiring - people will come in with more transferable skills, and it will be easier to find them when you're using standard modern infrastructure.
+The holistic approach we championed was a service-oriented architecture built on standard infrastructure and tooling, with services encapsulating behaviour behind stable interfaces. This made testing much more automatable and reliable, allowed services to move at different speeds and gave us smaller releasable units. This allowed us to increase release cadence, which allowed us to deliver features faster. Furthermore, it had benefits for hiring - new joiners have more transferable skills, and it will be easier to find candidates.
+
+The benefits of faster release cycles compound as well: slow release cycles push users to ask for features to be built maximally flexible up front, because they don't want to wait months for the next fix - which makes each feature bigger, slower and buggier, lengthening the cycle further still. Fast cycles break that spiral: ship something simple, adjust it days later if it needs it.
 
 ### Visible delivery
 
 Visible delivery matters as much as fast delivery. I once worked on a project building a pricing platform for structured products, taking over from another consultancy that had used six months of the one-year timeline not delivering much. My team of three delivered a basic demo within two weeks, had something akin to an MVP within six, and met the original production release date despite half the time lost before we even started. The business had lost confidence in tech delivery; small, visible increments helped build trust in our new team.
 
-I once worked with someone who would share this image at every opportunity. I still find it useful today, along with the mantra "Make it work, make it right, make it fast". They are both useful reminders for everyone that every long journey starts with the first step.
+I had a colleague who would share this image at every opportunity. I still find it useful today, along with the mantra "Make it work, make it right, make it fast". They are both useful reminders for everyone that every long journey starts with the first step.
 ![Not like this: a wheel, then two wheels, then a chassis, then a half-built car. Like this: a skateboard, then a scooter, then a bike, then a motorbike, then a car - each stage a usable product](img/agile-delivery.jpg)
 
 *Illustration by [Henrik Kniberg](https://blog.crisp.se/author/henrikkniberg)*
 
 ### Sustainability
 
-Speaking of long journeys, your speed needs to be sustainable. The system on the legacy stack I described above would have started out efficiently and productively. How can we avoid a descent into entropy?
+Speaking of long journeys, your speed needs to be sustainable. The system on the legacy stack I described earlier didn't start out that way. How can we avoid a descent into entropy?
 
-**Technical debt** is never given the respect it deserves; the business features are always more important. This works fine until the delivery grinds to a halt because the drag from tech debt has consumed all developer output. No one wants that, but it's very convenient to ignore it. I believe the IT team have a responsibility to communicate the cost of technical debt and should discuss it openly with the business, but also retain ownership over addressing it. This is usually done in two ways: a small tax on every change or a big work item. Personally I prefer the former; it's easier for the business to budget for and you can land your changes more cleanly if you've done a nice prefactor to tidy up all the code that you're about to touch. Big work items are sometimes necessary, and should be balanced - devote one developer to it, and have the rest keeping the business happy rather than stopping the entire line.
+**Technical debt** is never given the respect it deserves; the business features are always more important. This works fine until the delivery grinds to a halt because the drag from tech debt has consumed all developer output. I believe the IT team have a responsibility to communicate the cost of technical debt and should discuss it openly with the business, but also retain ownership over addressing it. This is usually done in two ways: a small tax on every change or a big work item. Personally I prefer the former; it's easier for the business to budget for and you can land your changes more cleanly if you've done a nice prefactor to tidy up all the code that you're about to touch. Big work items are sometimes necessary, and should be balanced - devote one developer to it, and have the rest keeping the business happy rather than stopping the entire line.
 
-**Clear responsibilities** for each application. A system may need very complex behaviour, but that doesn't mean you can't compose it from simpler things. Simpler things can be developed faster, released with more confidence, and can fit inside a developer's head. Often the excuse of it being too hard to make a new application is used to just bundle it into something else, multiplying the complexity and vastly complicating any later extraction. If this is the case, invest in the ability to make new applications - templates, shared libraries, recipes for onboarding and integrating. It will only get harder as time goes on to pull out anything meaningful from the spaghetti you're otherwise making.
+**Clear responsibilities** for each application. A system may need very complex behaviour, but that doesn't mean you can't compose it from simpler components which can be developed faster, released with more confidence, and fit inside a developer's head. Often the excuse of it being too hard to make a new application is used to just bundle it with something else, multiplying the complexity and vastly complicating any later extraction. If this is the case, invest in the ability to make new applications - templates, shared libraries, recipes for onboarding and integrating. It will only get harder as time goes on to pull out anything meaningful from the spaghetti you're otherwise making.
 
 **Clean interfaces** will ensure that each application and system doesn't get entangled with the others, retaining their ability to change and be released independently. Highly coupled components have to be changed and released together, leading to delays and a higher possibility of bugs. These interfaces also provide great places to hook in test and automation tools. I've seen entire systems driven through Selenium tests on a single UI, where the majority of the time and flakiness comes from simply setting up the preconditions and the assertions are weak because the outcome is not properly reflected in the UI.
 
-**Automation** of all the things. Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems, with a minimum of five working days lead time. Doing a release wasn't just a task; it was a Herculean effort (I'd argued it was Sisyphean, since Hercules only had to do his labours once). Multiple people's entire jobs were just farming the release process, and when two of them left some of that job landed on developers, including me. My first attempt took four days. I was trying to get to weekly releases and remain a developer, and this clearly was a blocker, so I did the developer thing and automated it: an app to track releases, drive Jiras, prefill email templates for the steps needing a human, create wiki pages through an API, and fill in internal forms with Playwright driving a browser. It took a fair amount of effort, but I got the work down to about 20 minutes and it scaled across multiple applications and teams. It strangely became the thing I was best known for, even though it was just a tool I needed to do my main job in a reasonable way.
+**Automation** of all the things. Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems, with a minimum of five working days lead time. Doing a release wasn't just a task; it was a Herculean effort (I'd argue it was Sisyphean, since Hercules only had to do his labours once). Multiple people's entire jobs were just farming the release process, and when two of them left some of that job landed on developers including me. My first attempt took four days. I was trying to do weekly releases and remain a developer, and this clearly was a blocker, so I did the developer thing and automated it: an app to track releases, drive jiras, prefill email templates for the steps needing a human, generate wiki pages and fill in forms with Playwright driving a browser. It took a fair amount of effort, but I got the work down to about 20 minutes and it scaled across multiple applications and teams. It strangely became the thing I was best known for, even though it was just a tool I needed to do my main job in a reasonable way.
 
 ![A spider juggling five computer screens at once: "Couldn't you have just written some software or used AI?" "The extra feature of the spider is that it can threaten to eat people if they don't approve the release."](img/release-automation.jpg)
 
 None of these things are easy or quick. They take time and dedication, so pick your battles, have a clear idea of what you want and why you want it and then see it through.
 
-
 ## AI
+
+> Double down on your mental model
 
 AI deserves its own section because it's undoubtedly the biggest change the software industry has ever seen. It's strange, because new technology in Big Org normally moves bottom-up against resistance - developers use something outside work, see the advantage, then have to fight the policy to bring it in where the default answer is always no. AI is the opposite: enforced from the top whether people wanted it or not. I suspect it's a mix of fear of being left behind by their competitors and everyday exposure to AI, where the results of vibecoding a simple app get taken on faith as extending cleanly to the complex systems inside a Big Org. In these systems, as a colleague told me, "typing was never the bottleneck". 
 None of these organisations are clear on how much value they're getting from it, but I bet they know exactly how much it costs. When this eventually self-corrects I think we'll see another shift. Use this time wisely to learn the tools and experiment.
