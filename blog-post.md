@@ -57,13 +57,13 @@ We're usually engaged to bring expertise, both technical and domain, to a client
 
 Our extra value as a consultancy is to look around while we're doing that and see how else we can help. It might be pain that we have during implementation, or pain we see within the wider team which impacts delivery. You can't fix everything, so choose your hills wisely. Consider how long something takes to do versus how frequently it's performed - shaving a few seconds off a small-but-frequent task is equally as valuable as saving a hours off a big task that you do once a week, or a day from something you do once a month. Time saved on a task can add up quickly over days and weeks, scaled across teams. If you have a team of 6, and you can save each one 3 minutes per hour, it gives you an extra 2 developer days per week. Wouldn't that be useful?
 
-https://xkcd.com/1319/
+https://xkcd.com/1319/ + credit
 
-### Small tasks
+### In the small
 
 For a developer the small-but-frequent tasks are things like the code-test-refactor loop that we do hundreds of times a day. Optimisations include improving your typing speed and accuracy, the responsiveness and performance of the hardware, the IDE and tooling you use. Sadly, even these basic things cannot be taken for granted because you are often given a general purpose Windows machine, laden with endpoint security, to use for development alongside email, chat apps and (inevitably) Excel. I've found that within these environments a Linux machine will give you vastly better performance, more native tooling and the possibility of faster hardware (if it's a VM in the cloud). Finding and getting hold of one may not be easy, but worth fighting for.
 
-### Big tasks
+### In the large
 
 The big tasks can be very different. I spent a year working to provide an alternative to a home-grown legacy stack - old Python, a mega-monorepo that was chronically broken, an unfathomable version control system, a gnomic runtime scheduler - despite modern tooling already in use elsewhere in the organisation. There was so much inertia: sunk costs, urgent business deliveries, the local maximum paradox. A new tech stack wasn't going to help with the business aims, was it? Actually yes, it will - but you have to communicate the bigger picture, and frame it in a way the business can understand. They don't care if you use git or containers, but they do  care about more frequent releases, lower lead time for features, fewer bugs released. We communicated success with a monthly newsletter of business success stories: "Feature X requested on Wednesday, in production on Friday". The client didn't ask for this directly, but the need for it was obvious - they were struggling to release working software, with a spiralling release cadence, ever more bugs, and months to deliver features. The holistic approach we championed was a service-oriented architecture, with services encapsulating behaviour behind stable interfaces. This made testing much more automatable and reliable, allowed services to move at different speeds and gave us smaller releasable units. This allowed us to increase release cadence, which allowed us to deliver features faster.
 
@@ -86,11 +86,11 @@ Speaking of long journeys, your speed needs to be sustainable. The system on the
 
 **Clean interfaces** will ensure that each application and system don't get entangled with each other, retaining their ability to change and be released independently. Highly coupled components have to be changed and released together, leading to delays and with a higher possibility of bugs. These interfaces also provide great places to hook in test and automation tools. I've seen entire systems driven through Selenium tests on a single UI, where the majority of the time and flakiness comes from simply setting up the preconditions and the assertions are weak because the outcome is not properly reflected in the UI.
 
+**Automation** of all the things. Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems, with a minimum of 5 working days lead time. Doing a release wasn't just a task, it was a Herculean effort (I'd argued it was Sisyphean, since Hercules only had to do his labours once). Multiple people's entire jobs were just for farming the release process, and when two of them left some of that job landed on developers, including me. My first attempt took four days. I was trying to get to weekly releases and remain a developer, and this clearly was a blocker, so I did the developer thing and automated it: an app to track releases, drive Jiras, prefill email templates for the steps needing a human, creating wiki pages through an API, filling in internal forms with Playwright driving a browser. It took a fair amount of effort, but I got the work down to about 20 minutes and it scaled across multiple applications and teams. It strangely became the thing I was best known for, even though it was just a tool I needed to do my main job in a reasonable way.
 
+*[COMIC: five bureaucratic forms and systems all needing to be filled in at once by one exhausted developer]*
 
-*[COMIC: a medieval peasant marvelling at a glowing smartphone, oblivious to the vast tangle of pipes, cables and servers underneath it]*
-
-What it proves, though, is that fast, organisation-wide change is possible when the motivation is strong enough. It just almost never points at the things engineers actually want changed.
+None of these things are easy or quick. They take time and dedication, so pick your battles, have a clear idea of what you want and why you want it, and then see it through.
 
 **Takeaway:** pick fights you can actually win, make the case in the business's own language, and if you can't get permission, get honest instead.
 
