@@ -10,24 +10,26 @@ This is a survival guide. Not a manifesto for fixing Big Org - nobody fixes Big 
 
 **Key quote:** None of this is personal - it's the predictable result of scale
 
-Every business starts small and focused, and the ones you end up working for were successful enough to grow. But Big Org didn't get big by growing organically. It got big through mergers and acquisitions - buying up competitors, adjacent businesses, whole product lines - and every merger brings confusion, complexity and a dilution of purpose. Once it gets big enough a second cycle emerges: centralisation of functions to save on overhead, followed by decentralisation when the centralised functions can't keep everyone happy. Each cycle leaves a trail of carnage and a not-quite-dead centralised function behind.
+Every business starts small and focused, and the ones you end up working for were successful enough to survive and grow. But Big Org didn't get big by growing organically. It got big through mergers and acquisitions - buying up competitors, adjacent businesses, whole product lines - and every merger brings confusion, complexity and a dilution of purpose. Once it gets big enough a second cycle emerges: centralisation of functions to save on overhead, followed by decentralisation when the centralised functions can't keep everyone happy. Each cycle leaves a trail of carnage and a not-quite-dead centralised function behind.
 
-None of the weirdness that follows is arbitrary - it's no one's fault. The people you will work with are intelligent and usually want the same things you do. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude.
+None of the weirdness that follows is arbitrary - it's no one's fault. The people you will work with are intelligent and usually want the same things you do. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude. Some things you'll see on the way to acquiring your thousand-yard stare:
 
 *[COMIC: two small, tidy companies merging into one much bigger, visibly confused mess of departments and org charts]*
 
-Some things you'll see on the way to acquiring your thousand-yard stare:
-
+- Politics, bureaucracy, inefficiency
+- Byzantine processes
 - Centralised teams hidden behind ticket queues aka the black hole of service requests
 - Conflicting requirements, sometimes for good reasons like regulation, sometimes because changing software is easier (not simpler) than changing the business
 - One size fits all, whether it's your size or not
-- Incentives for the wrong behaviour - like a KPI for how fast you close a ticket without measuring if it was closed satisfactorily
-- Higher churn, because it's impossible to know everything up front
-- Uncodified institutional knowledge - "wisdom of the ancients", "don't touch it, we don't know how it works", "we've always done it that way"
+- Incentives for the wrong behaviour - like KPIs for how fast you close a ticket without measuring if it was closed satisfactorily
+- Missing requirements and higher churn, because it's impossible to know everything up front
+- Uncodified institutional knowledge - "wisdom of the ancients", "we've always done it that way"
 - Spreadsheets for everything
 - Documentation that's out of date the moment it's written
 - Systems that will run until the heat death of the universe because we don't know what they do and we're scared to switch them off
 - Budgets that won't let you hire people but will let you spend incredible amounts on IBM or Oracle
+
+If these things are going to drive you insane, Big Org might not be for you. This is worth considering seriously, because I have seen multiple times someone join Big Org, get frustrated and leave 6 months later which is disruptive to them and the team they joined. Keep reading for some advice and tools which may help you face the challenge.
 
 *[COMIC: someone using a spreadsheet to hammer in a nail]*
 
@@ -53,6 +55,8 @@ Your mental model is never complete; your responsbilities will grow, the world d
 
 ## How to make a difference
 
+**Key quote:** pick fights you can actually win, make the case in the business's own language
+
 We're usually engaged to bring expertise, both technical and domain, to a client's problem along with a team of skilled engineers who can help deliver a solution.
 
 Our extra value as a consultancy is to look around while we're doing that and see how else we can help. It might be pain that we have during implementation, or pain we see within the wider team which impacts delivery. You can't fix everything, so choose your hills wisely. Consider how long something takes to do versus how frequently it's performed - shaving a few seconds off a small-but-frequent task is equally as valuable as saving a hours off a big task that you do once a week, or a day from something you do once a month. Time saved on a task can add up quickly over days and weeks, scaled across teams. If you have a team of 6, and you can save each one 3 minutes per hour, it gives you an extra 2 developer days per week. Wouldn't that be useful?
@@ -62,6 +66,8 @@ https://xkcd.com/1319/ + credit
 ### In the small
 
 For a developer the small-but-frequent tasks are things like the code-test-refactor loop that we do hundreds of times a day. Optimisations include improving your typing speed and accuracy, the responsiveness and performance of the hardware, the IDE and tooling you use. Sadly, even these basic things cannot be taken for granted because you are often given a general purpose Windows machine, laden with endpoint security, to use for development alongside email, chat apps and (inevitably) Excel. I've found that within these environments a Linux machine will give you vastly better performance, more native tooling and the possibility of faster hardware (if it's a VM in the cloud). Finding and getting hold of one may not be easy, but worth fighting for.
+
+Excel wasn't a joke, by the way. One piece of practical advice which seems to be an axiom: everything ends up in a spreadsheet eventually, no matter what you build or how good your UI is. Don't fight it - if your application doesn't ship with a spreadsheet import and export, you are guaranteed to eventually create a job for someone, quite possibly future you, copying data cell by cell.
 
 ### In the large
 
@@ -86,13 +92,12 @@ Speaking of long journeys, your speed needs to be sustainable. The system on the
 
 **Clean interfaces** will ensure that each application and system don't get entangled with each other, retaining their ability to change and be released independently. Highly coupled components have to be changed and released together, leading to delays and with a higher possibility of bugs. These interfaces also provide great places to hook in test and automation tools. I've seen entire systems driven through Selenium tests on a single UI, where the majority of the time and flakiness comes from simply setting up the preconditions and the assertions are weak because the outcome is not properly reflected in the UI.
 
-**Automation** of all the things. Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems, with a minimum of 5 working days lead time. Doing a release wasn't just a task, it was a Herculean effort (I'd argued it was Sisyphean, since Hercules only had to do his labours once). Multiple people's entire jobs were just for farming the release process, and when two of them left some of that job landed on developers, including me. My first attempt took four days. I was trying to get to weekly releases and remain a developer, and this clearly was a blocker, so I did the developer thing and automated it: an app to track releases, drive Jiras, prefill email templates for the steps needing a human, creating wiki pages through an API, filling in internal forms with Playwright driving a browser. It took a fair amount of effort, but I got the work down to about 20 minutes and it scaled across multiple applications and teams. It strangely became the thing I was best known for, even though it was just a tool I needed to do my main job in a reasonable way.
+**Automation** of all the things. Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems, with a minimum of 5 working days lead time. Doing a release wasn't just a task, it was a Herculean effort (I'd argued it was Sisyphean, since Hercules only had to do his labours once). Multiple people's entire jobs were just for farming the release process, and when two of them left some of that job landed on developers, including me. My first attempt took four days. I was trying to get to weekly releases and remain a developer, and this clearly was a blocker, so I did the developer thing and automated it: an app to track releases, drive Jiras, prefill email templates for the steps needing a human, creating wiki pages through an API, filling in internal forms with Playwright driving a browser. It took a fair amount of effort, but I got the work down to about 20 minutes and it scaled across multiple applications and teams. It strangely became the thing I became best known for, even though it was just a tool I needed to do my main job in a reasonable way.
 
 *[COMIC: five bureaucratic forms and systems all needing to be filled in at once by one exhausted developer]*
 
-None of these things are easy or quick. They take time and dedication, so pick your battles, have a clear idea of what you want and why you want it, and then see it through.
+None of these things are easy or quick. They take time and dedication, so pick your battles, have a clear idea of what you want and why you want it and then see it through.
 
-**Takeaway:** pick fights you can actually win, make the case in the business's own language, and if you can't get permission, get honest instead.
 
 ## AI
 
@@ -100,30 +105,24 @@ AI deserves its own section because it's undoubtedly the biggest change the soft
 
 ## The survival toolkit
 
-Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems: emailing a human for signoff; every ticket in Jira (the issue tracker) in the right state, plus three extra tickets worded precisely enough to survive a human review team; recording which budget the release came under; booking the release team; and a wiki page with release and rollback notes.
+**Emails** will attempt to drown you. Invest time in email filters to find the signal in the noise and make the best use of your time.
 
-My first attempt took four days. Some people's entire job was farming release paperwork, and no single person knew the whole process - so when the two who did left the bank, the job landed on developers by default. I was trying to get to weekly releases against everyone else's four-week cycle, so I automated it: driving Jiras through their application programming interface (API), email templates for the steps needing a human, wiki pages through an API, and portal forms the tool filled in itself. Best case, the whole process came down to about twenty minutes. Weekly releases held.
+**Meetings** abound. If a meeting doesn't need your input and its output doesn't affect you, politely remove yourself. If a meeting invites your whole team but only requires a representative, send one person who reports back.
 
-*[COMIC: five bureaucratic forms and systems all needing to be filled in at once by one exhausted developer]*
+**Prepare** for meetings, too. In the land of opinions, the one with hard facts (and diagrams) is king.
 
-It got pushback, especially from teams who found out their API had been reverse-engineered. What worked was being respectful and offering to be a pilot user - it reframes the whole thing as helping them, and gets you what you actually want sooner.
+**Empathy** put yourself in someone else's shoes. What motivates them? What frustrates them? This will help you understand what they want from you.
 
-That's the bigger principle: automate for sustainability, not just to save your own time. It stops the thing needing you specifically to maintain it, lets someone with less context take it over, and turns institutional knowledge that only exists in people's heads into something codified in software. Work on something for four weeks and you're probably the global expert in it, because everyone who knew it before has left or forgotten.
+**Seek first to understand, then to be understood** because no one knows everything.
 
-The rest of the toolkit is smaller but adds up. Invest real time in email filters to find the signal in the noise. If a meeting doesn't need your input and its output doesn't affect you, remove yourself. Learn to search properly - the answer you need is often buried on a wiki page somewhere. When you ask a question, ask it once: integrate the answer rather than asking again next month.
+**Failures will happen** what matters is that you do what you reasonably could to avoid, mitigate and prevent them recurring.
 
-A handful of habits help too. Put yourself in the other person's shoes. Prepare for meetings - know the one point you want to land; I like screen-sharing my diagrams for this reason. Seek first to understand, then to be understood. Failures will happen; what matters is that you did what you reasonably could to avoid, mitigate and prevent them recurring. Don't try to clear the whole to-do list yourself - a Big Org's is infinite, and trying will burn you out, so focus on the highest-impact things. A small, unplanned favour for someone can build goodwill worth far more later.
+**Don't boil the ocean** Big Org's todo list is infinite, and trying will burn you out, so focus on the highest-impact things you can achieve.
 
-You don't have to fix everything, or stay thirty years to make a difference. Do what you can, and leave things better than you found them - a test, a pipeline, a deployment, a UI, a page of documentation, whatever you touch. Do that consistently and you become known as the person who makes things better, not the one who leaves a trail of destruction behind them.
-
-One piece of practical advice which seems to be an axiom: everything ends up in a spreadsheet eventually, no matter what you build. Don't fight it - if your application doesn't ship with an import and export for it, you are guaranteed to eventually create a job for someone, quite possibly future you, copying data cell by cell into or out of one by hand.
-
-Meetings - a daily thirty-minute status call everyone sits through also costs a developer-week, so send one person to summarise it back, or ask for notes instead of attendance.
-
-**Takeaway:** automate the boring, bureaucratic and repetitive - not for your own convenience, but so the knowledge survives you leaving.
+**Automate** what you can, not just for your own convenience, but so the knowledge becomes codified and the process becomes scalable.
 
 ## Leave it better than you found it
 
-None of this fixes Big Org. Nothing will, and that's fine - it isn't your job to fix it single-handedly, and you shouldn't try. What you can do is choose your hills carefully, build your own mental model and share it generously, automate the things that grind people down, and leave everything you touch a little better than you found it.
+None of this fixes Big Org. Nothing will, and that's fine - it isn't your job to fix it single-handedly, you shouldn't try. What you can do is build your own mental model and share it generously, automate the things that grind people down, choose one or two things to make a really positive change to, and leave everything you touch a little better than you found it.
 
 Do that consistently enough, and you won't just survive Big Org - you'll actually be glad you were there.
