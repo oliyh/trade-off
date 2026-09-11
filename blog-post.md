@@ -100,7 +100,7 @@ Speaking of long journeys, your speed needs to be sustainable. The system on the
 
 **Automation** of all the things. Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems, with a minimum of five working days lead time. Doing a release wasn't just a task; it was a Herculean effort (I'd argued it was Sisyphean, since Hercules only had to do his labours once). Multiple people's entire jobs were just farming the release process, and when two of them left some of that job landed on developers, including me. My first attempt took four days. I was trying to get to weekly releases and remain a developer, and this clearly was a blocker, so I did the developer thing and automated it: an app to track releases, drive Jiras, prefill email templates for the steps needing a human, create wiki pages through an API, and fill in internal forms with Playwright driving a browser. It took a fair amount of effort, but I got the work down to about 20 minutes and it scaled across multiple applications and teams. It strangely became the thing I was best known for, even though it was just a tool I needed to do my main job in a reasonable way.
 
-*[COMIC: five bureaucratic forms and systems all needing to be filled in at once by one exhausted developer]*
+![A spider juggling five computer screens at once: "Couldn't you have just written some software or used AI?" "The extra feature of the spider is that it can threaten to eat people if they don't approve the release."](img/release-automation.jpg)
 
 None of these things are easy or quick. They take time and dedication, so pick your battles, have a clear idea of what you want and why you want it and then see it through.
 
