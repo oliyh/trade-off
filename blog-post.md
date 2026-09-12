@@ -12,7 +12,7 @@ This is a survival guide. Not a manifesto for fixing Big Org - nobody fixes Big 
 
 Every business starts small and focused, and the successful ones survive and grow. Big Org didn't get big just by growing organically but through many mergers and acquisitions of competitors, adjacent businesses, whole product lines, with each one bringing confusion, complexity and a dilution of purpose. Once it gets big enough a second cycle emerges: centralisation of functions to save on overhead, followed by decentralisation when the centralised functions can't keep everyone happy. Each cycle leaves a trail of carnage and a not-quite-dead centralised function behind.
 
-![Big Organisation: departments ignoring each other, budget tug-of-war, revolving-door CEO, and one small pocket of actual productivity](img/1789074555493.png)
+![The research division was formed to keep the search division on their toes](img/1789074555493.png)
 
 Weirdness follows. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude. Some things you'll see on the way to acquiring your thousand-yard stare:
 
@@ -29,7 +29,7 @@ Weirdness follows. It's a function of size and complexity that simply outscales 
 - Systems that will run until the heat death of the universe because we don't know what they do and we're scared to switch them off
 - Budgets that won't let you hire people but will let you spend incredible amounts on IBM or Oracle
 
-![The accounts autoclave: nobody knows what it does, everyone's scared to turn it off, so it just gets a new rod of uranium every year](img/1789074776768.png)
+![It spews out hundreds of punch cards every night but we don't have anything that can read them, so we built a warehouse to store them all](img/1789074776768.png)
 
 If these things are going to drive you insane, Big Org might not be for you. This is worth considering seriously, because I have seen it happen multiple times: someone joins Big Org, gets frustrated and leaves six months later, which is disruptive to them and the team they joined. Some people thrive on the opportunity to make change at scale. If this might be you, keep reading for some advice and tools which may help you face the challenge.
 
@@ -100,7 +100,7 @@ Speaking of long journeys, your speed needs to be sustainable. The system on the
 
 **Automation** of all the things. Some of the most valuable automation in Big Org isn't technical, it's bureaucratic. At one bank, releasing anything meant lining up five paperwork systems, with a minimum of five working days lead time. Doing a release wasn't just a task; it was a Herculean effort (I'd argue it was Sisyphean, since Hercules only had to do his labours once). Multiple people's entire jobs were just farming the release process, and when two of them left some of that job landed on developers including me. My first attempt took four days. I was trying to do weekly releases and remain a developer, and this clearly was a blocker, so I did the developer thing and automated it: an app to track releases, drive jiras, prefill email templates for the steps needing a human, generate wiki pages and fill in forms with Playwright driving a browser. It took a fair amount of effort, but I got the work down to about 20 minutes and it scaled across multiple applications and teams. It strangely became the thing I was best known for, even though it was just a tool I needed to do my main job in a reasonable way.
 
-![A spider juggling five computer screens at once: "Couldn't you have just written some software or used AI?" "The extra feature of the spider is that it can threaten to eat people if they don't approve the release."](img/release-automation.jpg)
+![Also, you should see how many drinks it can carry from the bar when we have a team night out](img/release-automation.jpg)
 
 None of these things are easy or quick. They take time and dedication, so pick your battles, have a clear idea of what you want and why you want it, get the business onside and then see it through.
 
