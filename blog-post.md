@@ -129,6 +129,8 @@ Although I personally find AI to multiply my output quite effectively, I struggl
 
 **Automate** what you can, not just for your own convenience, but so the knowledge becomes codified and the process becomes scalable.
 
+![Technically, if we assume 1.4 × 10²¹ liters of seawater and standard 1500W kitchen kettles, you'd only need about 3 × 10²² kettles and a very large extension cord, though localized boiling might trigger an atmospheric runaway effect long before you finish the Pacific](img/boil-the-ocean.png)
+
 ## Leave it better than you found it
 
 None of this fixes Big Org. Nothing will, and that's fine - it isn't your job to fix it single-handedly and you shouldn't try. What you can do is build your own mental model and share it generously, automate the things that grind people down, choose one or two things to make a really positive change to, and leave everything you touch a little better than you found it.
