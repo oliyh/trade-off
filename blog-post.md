@@ -39,6 +39,8 @@ If these things are going to drive you insane, Big Org might not be for you. Thi
 
 Prepare to fill in some request forms. Lots of them. I tell people that the request form application is their new best friend.
 
+![They haven't asked me for anything yet, but I hope I can return the favour one day](img/new-friend.png)
+
 You will be bombarded with information. New people, acronyms, systems with strange names, intricate processes, long email chains. Absorbing as much as you can, as fast as you can, is your first job. Everyone's brain works differently, but I draw diagrams - lots of them, sometimes covering the same ground from different perspectives: who belongs to which team, what a given system is for, the journey of a single quote through the systems, the desks that touch it, where a piece of data actually lives, what a trader uses versus what a salesperson uses.
 
 Each diagram builds a different facet of your mental model, and each one is something you can discuss with someone else. Show a colleague your diagram and ask "so where does what you just told me fit on this?" - it shows them exactly what you know, so they can tell you precisely instead of re-explaining from scratch, and correct any wrong assumptions you made.
