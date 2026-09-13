@@ -75,6 +75,8 @@ I spent a year building an alternative to a home-grown legacy ecosystem - old Py
 
 A new tech stack isn't going to help with the business aims, is it? Actually yes, it will - but you have to communicate the bigger picture framed in a way the business can understand. They don't care if you use git or containers, but they do care about more frequent releases, lower lead time for features and fewer bugs. We sent out a monthly newsletter of business success stories: "Feature X requested on Wednesday, in production on Friday". The client didn't ask for this, but the need for it was obvious. The fresh perspective we had gave us conviction there was a better way.
 
+![Fixing the wiper will yield a 0.002% drag reduction, which is vital given that our current top speed—on account of the missing wheel—is zero.](img/missing-wheel.png)
+
 The approach we championed was a service-oriented architecture built on standard infrastructure and tooling, with services encapsulating behaviour behind stable interfaces. This made testing much more automatable and reliable, allowed services to move at different speeds and gave us smaller releasable units. That allowed us to increase release cadence and deliver features faster. Furthermore, it had benefits for hiring - new joiners have more transferable skills, and it will be easier to find candidates.
 
 The benefits of faster release cycles compound as well: slow release cycles push users to ask for more flexible features, because they don't want to wait months for a change - which makes each feature bigger, slower and more complicated, lengthening the cycle further still. Fast cycles break that spiral: ship something simple, adjust it days later if needed.
