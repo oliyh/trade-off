@@ -4,7 +4,7 @@ Joining Big Org is overwhelming. There is so much complexity in front of you - s
 
 None of that is going away because you turned up. So the real question is: what can you actually do about it?
 
-This is a survival guide. Not a manifesto for fixing Big Org - nobody fixes Big Org - but a set of things you can reframe, things you can stop worrying about and things you can actually change, so your time there is productive, tolerable an even enjoyable.
+This is a survival guide. Not a manifesto for fixing Big Org - nobody fixes Big Org - but a set of things you can reframe, things you can stop worrying about and things you can actually change, so your time there is productive, tolerable and even enjoyable.
 
 ## A brief history of Big Org
 
