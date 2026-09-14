@@ -12,7 +12,7 @@ This is a survival guide. Not a manifesto for fixing Big Org - nobody fixes Big 
 
 Every business starts small and focused, and the successful ones survive and grow. Big Org didn't get big just by growing organically but through many mergers and acquisitions of competitors, adjacent businesses, whole product lines, with each one bringing confusion, complexity and a dilution of purpose. Once it gets big enough a second cycle emerges: centralisation of functions to save on overhead, followed by decentralisation when the centralised functions can't keep everyone happy. Each cycle leaves a trail of carnage and a not-quite-dead centralised function behind.
 
-![The research division was formed to keep the search division on their toes](img/1789074555493.png)
+![The research division was formed to keep the search division on their toes](img/big-org.png)
 
 Weirdness follows. It's a function of size and complexity that simply outscales individuals by multiple orders of magnitude. Some things you'll see on the way to acquiring your thousand-yard stare:
 
@@ -29,7 +29,7 @@ Weirdness follows. It's a function of size and complexity that simply outscales 
 - Systems that will run until the heat death of the universe because we don't know what they do and we're scared to switch them off
 - Budgets that won't let you hire people but will let you spend incredible amounts on IBM or Oracle
 
-![It spews out hundreds of punch cards every night but we don't have anything that can read them, so we built a warehouse to store them all](img/1789074776768.png)
+![It spews out hundreds of punch cards every night but we don't have anything that can read them, so we built a warehouse to store them all](img/accounts-machine.png)
 
 If these things are going to drive you insane, Big Org might not be for you. This is worth considering seriously, because I have seen it happen multiple times: someone joins Big Org, gets frustrated and leaves six months later, which is disruptive to them and the team they joined. Some people thrive on the opportunity to make change at scale. If this might be you, keep reading for some advice and tools which may help you face the challenge.
 
